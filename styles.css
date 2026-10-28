@@ -3,4 +3,17 @@ body {
     background-color: #141414;
     color: #FFF;
     font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-inline: 25px;
+}
+
+.profile {
+    background-color: #333;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 384px;
 }
