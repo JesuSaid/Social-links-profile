@@ -14,9 +14,9 @@ body {
 
 .profile {
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #1F1F1F;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     max-width: 384px;
     padding: 35px;
@@ -41,5 +41,33 @@ body {
 }
 
 .profile-description {
-    margin: 25px 0 0;
+    margin: 25px 0 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.links a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.item {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.item:hover {
+    background-color: #C5F82A;
+    color: #141414;
+}
+
+.item:focus-visible {
+    background-color: #C5F82A;
+    color: #141414;
 }
