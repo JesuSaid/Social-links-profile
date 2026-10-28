@@ -8,6 +8,8 @@ body {
     align-items: center;
     min-height: 100vh;
     padding-inline: 25px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .profile {
@@ -17,11 +19,27 @@ body {
     border-radius: 20px;
     width: 100%;
     max-width: 384px;
-    padding: 30px;
+    padding: 35px;
 }
 
 .profile-avatar {
     border-radius: 50%;
     width: 100%;
     max-width: 100px;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+.profile-location {
+    margin: 8px 0 0;
+    color: #C5F82A;
+    font-weight: 600;
+}
+
+.profile-description {
+    margin: 25px 0 0;
 }
